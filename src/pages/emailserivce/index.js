@@ -1,13 +1,13 @@
 import { PureComponent } from "react";
 
-class Online extends PureComponent{
+class Emailserivce extends PureComponent{
   render(){
     return (
       <div>
-        Online
+        Emailserivce
       </div>
     )
   }
 }
 
-export default Online
+export default Emailserivce

@@ -22,8 +22,9 @@ const index = memo(function rcaindex() {
                 <HeaderLeft>
                     {
                         headerlinks.map((item, index) => {
+                            let swidth = item.width
                             return (
-                                <div key={item.title} className="select-item">
+                                <div key={item.title} className="select-item" style={{width:{swidth}}}>
                                     {showlinks(item,index)}
                                 </div>
                             ) 

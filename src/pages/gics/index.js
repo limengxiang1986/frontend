@@ -1,13 +1,13 @@
 import { PureComponent } from "react";
 
-class Gic extends PureComponent{
+class Gics extends PureComponent{
   render(){
     return (
       <div>
-        Gic
+        Gics
       </div>
     )
   }
 }
 
-export default Gic
+export default Gics

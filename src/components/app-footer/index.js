@@ -1,11 +1,12 @@
 import { PureComponent } from "react";
+import {FooterStyle,FooterLeft,FooterRight} from './style';
 
 class Footer extends PureComponent{
   render(){
     return (
-      <div>
+      <FooterStyle>
         Footer
-      </div>
+      </FooterStyle>
     )
   }
 }

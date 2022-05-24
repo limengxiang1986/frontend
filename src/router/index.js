@@ -1,20 +1,30 @@
+import Mnrcahome from "../pages/mnrcahome";
 import Dashboard from "../pages/dashboard";
-import Gic from "../pages/gic";
-import Online from "../pages/online";
+import Gics from "../pages/gics";
+import Emailserivce from "../pages/emailserivce";
+import Squadgrouprcaedaassessor from "../pages/squadgrouprcaedaassessor";
 
 const routes = [
     {
         path:"/",
         exact :true,
+        component:Mnrcahome
+    },
+    {
+        path:"/dashboard",
         component:Dashboard
     },
     {
-        path:"/online",
-        component:Online
+        path:"/gics",
+        component:Gics
     },
     {
-        path:"/gic",
-        component:Gic
+        path:"/emailservice",
+        component:Emailserivce
+    },
+    {
+        path:"/squadgrouprcaedaassessor",
+        component:Squadgrouprcaedaassessor
     },
 ]
 
